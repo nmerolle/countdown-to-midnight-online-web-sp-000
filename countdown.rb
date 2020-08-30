@@ -1,8 +1,6 @@
 #write your code here
 
-def countdown(seconds)
-seconds = gets.chomp
-number = seconds.to_i
+def countdown(number)
  while number > 0
   puts "#{number} SECOND(S)!"
   sleep(1)
@@ -10,4 +8,5 @@ number = seconds.to_i
   end
   return "Happy New Year"
 end
+countdown(10)
 end
